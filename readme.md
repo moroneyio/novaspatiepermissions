@@ -9,7 +9,7 @@ This [Nova](https://nova.laravel.com) tool lets you:
 - use permissions based authorization for Nova resources
 
 ## Screenshots
-<img alt="screenshot of the backup tool" src="https://insenseanalytics.github.io/public-assets/laravel-nova-permission/nova-permission-screenshot.png" />
+<img alt="screenshot" src="https://ochosted.au-syd1.upcloudobjects.com/itsmejoshua/NovaSpatiePermissions.png" />
 
 ## Requirements & Dependencies
 There are no PHP dependencies except the [Laravel Nova](https://nova.laravel.com) v4 package and the [Spatie Permission](https://github.com/spatie/laravel-permission) v5 package.
