@@ -128,7 +128,7 @@ For example, if your `Product` belongs to `User`, add the following permission o
 
 ## Contributing
 
-Contributions are welcome and will be fully credited as long as you use PSR-2, explain the issue/feature that you want to solve/add and back your code up with tests. Happy coding!
+Contributions are welcome, explain the issue/feature that you want to solve/add and back your code up with tests. Happy coding!
 
 ## License
 
