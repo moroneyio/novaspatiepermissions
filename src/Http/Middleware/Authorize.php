@@ -18,8 +18,6 @@ class Authorize
     {
         $tool = collect(Nova::registeredTools())->first([$this, 'matchesTool']);
 
-dd($tool,"authorize middle");
-
         return optional($tool)->authorize($request) ? $next($request) : abort(403);
     }
 
