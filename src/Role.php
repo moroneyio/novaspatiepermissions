@@ -4,20 +4,11 @@ namespace Itsmejoshua\Novaspatiepermissions;
 
 use Laravel\Nova\Resource;
 use Spatie\Permission\Models\Role as SpatieRole;
-use \Insenseanalytics\LaravelNovaPermission\PermissionsBasedAuthTrait;
+
 
 
 class Role extends Resource
 {
-	use RoleResourceTrait;
-	
- //use \Itsmejoshua\Novaspatiepermissions\PermissionsBasedAuthTrait;
-	
-	  public static $permissionsForAbilities = [
-      'all' => 'ranaPermission'
-    ];
-    
-
 	/**
 	 * The model the resource corresponds to.
 	 *
