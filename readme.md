@@ -1,8 +1,8 @@
 # A Laravel Nova tool for the Spatie Permission package
 
- [![License](https://poser.pugx.org/insenseanalytics/laravel-nova-permission/license)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
- [![Latest Stable Version](https://poser.pugx.org/insenseanalytics/laravel-nova-permission/v/stable)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
- [![Total Downloads](https://poser.pugx.org/insenseanalytics/laravel-nova-permission/downloads)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
+ [![License](https://poser.pugx.org/itsmejoshua/novaspatiepermissions/license)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
+ [![Latest Stable Version](https://poser.pugx.org/itsmejoshua/novaspatiepermissions/v/stable)](https://packagist.org/packages/insenseanalytics/laravel-nova-permission)
+ [![Total Downloads](https://poser.pugx.org/itsmejoshua/novaspatiepermissions/downloads)](https://packagist.org/packages/itsmejoshua/novaspatiepermissions)
 
 This [Nova](https://nova.laravel.com) tool lets you:
 - manage roles and permissions on the Nova dashboard
