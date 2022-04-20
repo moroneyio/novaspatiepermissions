@@ -1,9 +1,11 @@
 {
     "name": "itsmejoshua/novaspatiepermissions",
-    "description": "A Laravel Nova tool.",
+    "description": "Laravel Nova tool for managing spaties roles/permissions in laravel's nova package.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "spatie",
+        "permissions",
     ],
     "license": "MIT",
     "require": {
