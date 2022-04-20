@@ -5,7 +5,7 @@
         "laravel",
         "nova",
         "spatie",
-        "permissions",
+        "permissions"
     ],
     "license": "MIT",
     "require": {
