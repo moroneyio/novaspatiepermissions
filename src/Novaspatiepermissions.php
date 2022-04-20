@@ -12,11 +12,7 @@ use Laravel\Nova\Tool;
 class Novaspatiepermissions
 extends Tool
 {
-    
-    // use Itsmejoshua\Novaspatiepermissions\Role;
-// use Itsmejoshua\Novaspatiepermissions\Permission;
-    
-    public $roleResource = Role::class;
+    	public $roleResource = Role::class;
 	public $permissionResource = Permission::class;
 
 	public $registerCustomResources = false;
