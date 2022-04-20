@@ -5,8 +5,6 @@ namespace Itsmejoshua\Novaspatiepermissions;
 use Laravel\Nova\Resource;
 use Spatie\Permission\Models\Role as SpatieRole;
 
-
-
 class Role extends Resource
 {
 	/**
