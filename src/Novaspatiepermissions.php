@@ -8,11 +8,12 @@ use Laravel\Nova\Menu\MenuItem;
 use Laravel\Nova\Menu\MenuSection;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
+use Spatie\Permission\Models\Role as SpatieRole;
 
-class Novaspatiepermissions
-extends Tool
+
+class Novaspatiepermissions extends Tool
 {
-    	public $roleResource = Role::class;
+    public $roleResource = Role::class;
 	public $permissionResource = Permission::class;
 
 	public $registerCustomResources = false;
@@ -24,8 +25,6 @@ extends Tool
      */
     public function boot()
     {
-        
-       
         if ((Role::class === $this->roleResource && Permission::class === $this->permissionResource)
 			|| $this->registerCustomResources) {
 			Nova::resources([
@@ -33,11 +32,6 @@ extends Tool
 				$this->permissionResource,
 			]);
 		}
-        
-        
-        Nova::script('novaspatiepermissions', __DIR__.'/../dist/js/tool.js');
-        Nova::style('novaspatiepermissions', __DIR__.'/../dist/css/tool.css');
-        
         
     }
     
@@ -71,12 +65,15 @@ extends Tool
      */
     public function menu(Request $request)
     {
+    	
         return [
+        	
             MenuSection::make(__('nova-spatie-permissions::lang.sidebar_label'), [
-                    MenuItem::resource(Role::class),
-                    MenuItem::resource(Permission::class),
+            		MenuItem::link(__('nova-spatie-permissions::lang.sidebar_label_roles'), 'resources/roles'),
+            		MenuItem::link(__('nova-spatie-permissions::lang.sidebar_label_permissions'), 'resources/permissions'),
                 ])->icon('key')->collapsable(),
                 
                 ];
     }
 }
+
