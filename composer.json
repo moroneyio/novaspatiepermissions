@@ -21,7 +21,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Itsmejoshua\\Novaspatiepermissions\\ToolServiceProvider"
+                "Itsmejoshua\\Novaspatiepermissions\\ToolServiceProvider",
+                "Itsmejoshua\\Novaspatiepermissions\\NovaSpatiePermissionsServiceProvider"
             ]
         }
     },
