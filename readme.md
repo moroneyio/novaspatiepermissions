@@ -94,7 +94,7 @@ class YourNovaResource extends Resource
     use \Itsmejoshua\Novaspatiepermissions\PermissionsBasedAuthTrait;
 
     public static $permissionsForAbilities = [
-      'all' => 'manage products',
+      'all' => ['admin', 'manage products'],
     ];
 }
 ```
@@ -103,16 +103,16 @@ The example above means that all actions on this resource can be performed by us
 
 ```php
     public static $permissionsForAbilities = [
-      'viewAny' => 'view products',
-      'view' => 'view products',
-      'create' => 'create products',
-      'update' => 'update products',
-      'delete' => 'delete products',
-      'restore' => 'restore products',
-      'forceDelete' => 'forceDelete products',
-      'addAttribute' => 'add product attributes',
-      'attachAttribute' => 'attach product attributes',
-      'detachAttribute' => 'detach product attributes',
+      'viewAny' => ['view products'],
+      'view' => ['view products'],
+      'create' => ['create products'],
+      'update' => ['update products'],
+      'delete' => ['delete products'],
+      'restore' => ['restore products'],
+      'forceDelete' => ['forceDelete products'],
+      'addAttribute' => ['add product attributes'],
+      'attachAttribute' => ['attach product attributes'],
+      'detachAttribute' => ['detach product attributes'],
     ];
 ```
 
